@@ -612,6 +612,59 @@ h4 > .element-header {
   cursor: pointer;
 }
 
+h5 {
+  margin-top: 72px;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue)
+
+}
+
+.modal-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form input {
+  margin-left: 24px;
+ width: 360px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: var(--light-slate);
+}
+
+.modal-form label {
+margin-left: 24px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+}
+
+ textarea {
+  margin-left: 24px;
+  width: 360px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-form button {
+  margin: 0 auto;
+ width: 169px;
+padding: 16px 32px 16px 32px;
+border-radius: 4px;
+gap: 10px;
+color: var(--white);
+background-color: var(--iris);
+
+}
+
+
+
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
@@ -654,7 +707,7 @@ h4 > .element-header {
   margin-left: auto;
 }
 
-label {
+.input-wrapper>label {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -680,7 +733,8 @@ input {
   background-color: transparent;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
