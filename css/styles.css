@@ -647,3 +647,49 @@ h4 > .element-header {
 .project-card-caption:hover .transition-text-portoflio {
   translate: 0;
 }
+
+/* FORM */
+
+.form-wrapper {
+  margin-left: auto;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.form-submit {
+  position: relative;
+  padding: 8px 24px;
+  color: var(--white);
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+  gap: 16px;
+  /* display: flex;
+    justify-content: baseline; */
+}
+input {
+  padding: 8px 16px;
+  border: 1px var(--white);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+
+.icon-send {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
