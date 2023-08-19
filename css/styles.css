@@ -663,6 +663,11 @@ background-color: var(--iris);
 
 }
 
+.checkbox-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
 
 
 .is-hidden {
