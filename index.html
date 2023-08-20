@@ -59,27 +59,43 @@
             <div class="modal-body">
               <button type="button" class="modal-close" data-modal-close>
                <svg width="8px" height="8px">
-                <use href="./images/symbol-defs-6.svg#icon-close-black" class="modal-icon"></use>
+                <use href="./images/icons-hm6.svg#icon-close-black" class="modal-icon-close"></use>
                </svg>
               </button>
               <div class="modal-form">
-              <form>
-                <h5>Leave your contacts and we will call you back</h5>
-                <label for="username">Name</label>
-                  <input type="name" name="username" id="username">
-                  <label for="phone">
+              <form class="form">
+                <p>Leave your contacts and we will call you back</p>
+                <label for="username" class="modal-input">Name</label>
+
+                <div class="modal-input-wrapper">
+                  <svg width="15px" height="15px" class="modal-icon">
+                    <use href="/images/icons-hm6.svg#icon-username"></use>
+                  </svg>
+                  <input type="name" name="username" id="username"></div>
+
+                  <label for="phone" class="modal-input">
                     Phone</label>
-                    <input type="tel" name="phone" id="phone" />
-                  <label for="email">
+                    <div class="modal-input-wrapper">
+                      <svg width="13px" height="13px" class="modal-icon">
+                        <use href="/images/icons-hm6.svg#icon-phone"></use>
+                      </svg>
+                    <input type="number" name="phone" id="phone" /></div>
+
+                  <label for="email" class="modal-input">
                     Email</label>
-                    <input type="email" name="email" id="email" />
+                    <div class="modal-input-wrapper">
+                      <svg width="15px" height="12px" class="modal-icon">
+                        <use href="/images/icons-hm6.svg#icon-mail"></use>
+                      </svg>
+                    <input type="email" name="email" id="email"/></div>
                   <label>
                     Comment</label>
                     <textarea name="comment" placeholder="Text input" class="comment"></textarea>
-                    <div class="checkbox-flex">
-                    <input name="terms" id="terms" type="checkbox" />
-                    <label for="terms">I accept the terms and conditions of the Privacy Policy</label></div>
-                  <button type="submit">Order</button>
+                      <label for="terms"></label>
+                    <input name="terms" id="terms" type="checkbox" class="input-checkbox"/>
+                    <span class="checkbox-flex"></span>
+                  I accept the terms and conditions of the Privacy Policy
+                  <button type="submit" class="order-modal">Send</button>
                 </label>
               </form>
             </div>
