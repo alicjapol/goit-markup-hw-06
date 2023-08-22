@@ -716,9 +716,15 @@ textarea {
   margin-left: 4px;
   fill: white;
   visibility: hidden;
+
 }
+.checkbox-icon-bg {
+  background-color: var(--ocean);
+}
+
 .checkbox-icon:hover {
   visibility: visible;
+  background-color: var(--ocean);
 }
 /* .modal-form-input:hover,
   .modal-form-input:focus-within{
@@ -935,9 +941,9 @@ color: var(--ocean);
   transition: background-color var(--tr-timing-duration) var(--tr-timing-function);
 }
 
-.model-check-link {
-  padding-left: 16px;
-}
+.modal-check-link {
+  margin-left: 4px;
+color: var(--ocean);}
 
 .modal-check {
   margin-top: 10px;
