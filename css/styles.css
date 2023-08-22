@@ -944,6 +944,7 @@ color: var(--ocean);
   margin-left: 2px;
 }
 
-.visuality-hidden:checked {
+.checkbox-wrapper input[type='checkbox']:checked {
   opacity: 1;
+  background-color: var(--ocean);
 }
