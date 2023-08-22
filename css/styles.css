@@ -36,6 +36,10 @@ p {
   padding-inline-start: 0;
 }
 
+h1 {
+  margin:0;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -165,7 +169,7 @@ address {
 }
 
 .hero {
-  padding: 188px 0 140px 0;
+  padding: 188px 0;
   background-color: var(--navy-blue);
   flex-direction: column;
   background-image: linear-gradient(
@@ -182,8 +186,8 @@ address {
 }
 
 .hero-header {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+margin-bottom: 48px;
   max-width: 496px;
   font-size: 56px;
   font-weight: 700;
@@ -452,7 +456,7 @@ h4 > .element-header {
 .social-media {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
 }
 
@@ -695,10 +699,7 @@ textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.checkbox-wrapper label:hover::before,
-.checkbox-wrapper input[type='checkbox']:hover + label::before {
-  background-color: var(--ocean);
-}
+
 
 .checkbox-wrapper input[type='checkbox']:checked + label::before {
   background-color: var(--ocean);
